@@ -1,0 +1,3469 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a0ef4466-5f43-4d0d-935b-156b27d24871")
+	(paper "User" 298.45 217.322)
+	(title_block
+		(title "Latching Micro-SD Card Module Breakout")
+		(company "UCSC Rocket Team")
+		(comment 1 "Rachelle Wang")
+	)
+	(lib_symbols
+		(symbol "poop-eagle-import:3.3V"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.524 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3V Supply"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3.3V_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "3.3V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "poop-eagle-import:CAP_CERAMIC0603_NO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.29 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.3 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "poop:0603-NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP_CERAMIC0603_NO_1_0"
+				(rectangle
+					(start -1.27 1.524)
+					(end 1.27 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "poop-eagle-import:CAP_CERAMIC0805-NOOUTLINE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.29 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.3 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "poop:0805-NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP_CERAMIC0805-NOOUTLINE_1_0"
+				(rectangle
+					(start -1.27 1.524)
+					(end 1.27 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "poop-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "poop-eagle-import:HEADER-1X970MIL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP1"
+				(at -3.81 13.335 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "HEADER-1X970MIL"
+				(at -6.35 -15.24 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "poop:1X09_ROUND_70"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HEADER-1X970MIL_1_0"
+				(polyline
+					(pts
+						(xy -6.35 12.7) (xy -6.35 -12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -12.7) (xy 1.27 -12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 12.7) (xy -6.35 12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -12.7) (xy 1.27 12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 10.16 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "poop-eagle-import:MICROSD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X1"
+				(at -12.7 22.606 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "microSD"
+				(at -12.7 20.828 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "meow:CONN_47219-2001_MOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MICROSD_1_0"
+				(polyline
+					(pts
+						(xy -12.7 20.32) (xy -12.7 -22.86)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -22.86) (xy -2.54 -22.86)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -22.86) (xy 0 -25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -25.4) (xy 2.54 -25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -22.86) (xy 5.08 -22.86)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -25.4) (xy 2.54 -22.86)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -22.86) (xy 5.08 -25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -25.4) (xy 12.7 -25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 20.32) (xy -12.7 20.32)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -25.4) (xy 12.7 20.32)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "SD & MMC"
+					(at -5.08 -10.16 0)
+					(effects
+						(font
+							(size 2.1844 1.8567)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin output line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "DATA_OUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "DATA_IN"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "SD_VDD"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -15.24 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -17.78 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "G3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -20.32 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "G4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "poop-eagle-import:RESISTOR_4PACK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(thickness 0.2032)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "poop:RESPACK_4X0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor Packs (4 resistors)\n\n4 x 0603\n\n• 10K 1/16W - Digikey: YC164J-10KCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_2_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_3_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_4_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 163.83 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e75c53d-65d7-4c48-bdaf-21e2c5c1c0c9")
+	)
+	(junction
+		(at 135.89 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10d1d637-e1fc-4be5-b950-e4b081d03b9d")
+	)
+	(junction
+		(at 163.83 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3aaee74d-430a-48db-9b90-62a8834fb28d")
+	)
+	(junction
+		(at 125.73 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b951797-32d1-427e-8952-c5065151f031")
+	)
+	(junction
+		(at 125.73 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9eddfa93-01c9-461d-a8f0-dd83bd563e2c")
+	)
+	(junction
+		(at 125.73 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b355acaa-2643-43d8-8c1f-05caf79eb2c9")
+	)
+	(junction
+		(at 125.73 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebb00029-84a3-4d0c-b9f5-9a06cd757b86")
+	)
+	(junction
+		(at 125.73 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc625374-1eb5-4777-a99b-fd5ce208f612")
+	)
+	(wire
+		(pts
+			(xy 125.73 83.82) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "086b82e3-0330-4d3f-b746-d4bad6794c7f")
+	)
+	(wire
+		(pts
+			(xy 135.89 109.22) (xy 163.83 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "17955df4-2015-4a06-848b-303c5cadf11c")
+	)
+	(wire
+		(pts
+			(xy 163.83 129.54) (xy 163.83 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "20447800-da56-43ef-a28d-02b41455f6f7")
+	)
+	(wire
+		(pts
+			(xy 87.63 119.38) (xy 105.41 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2d13f832-ba2c-43c1-b420-395d981c8d87")
+	)
+	(wire
+		(pts
+			(xy 163.83 127) (xy 163.83 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "35259d53-5af5-4c41-8b51-a29e2999033a")
+	)
+	(wire
+		(pts
+			(xy 115.57 104.14) (xy 105.41 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4c40ba4c-affa-4317-af82-9e4b074c3b53")
+	)
+	(wire
+		(pts
+			(xy 125.73 111.76) (xy 125.73 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5c06b140-c2dd-4f50-9783-76c4c38644e9")
+	)
+	(wire
+		(pts
+			(xy 87.63 109.22) (xy 105.41 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "64c3221f-c7fa-401b-b4b2-3236c4a057dd")
+	)
+	(wire
+		(pts
+			(xy 163.83 121.92) (xy 163.83 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72019ee4-c8ff-4d02-82e8-c4f04f51d763")
+	)
+	(wire
+		(pts
+			(xy 163.83 101.6) (xy 135.89 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "75dc9134-c675-4e1e-8946-2d307d920cdd")
+	)
+	(wire
+		(pts
+			(xy 105.41 106.68) (xy 87.63 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7caa7a5a-ae8d-461d-b6ae-4dd11668ee84")
+	)
+	(wire
+		(pts
+			(xy 87.63 116.84) (xy 105.41 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "81380e59-ad61-4c3f-bf63-2f4c004196a1")
+	)
+	(wire
+		(pts
+			(xy 125.73 114.3) (xy 125.73 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "910f083e-7081-49f8-886e-31733860b1db")
+	)
+	(wire
+		(pts
+			(xy 87.63 101.6) (xy 105.41 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "97d9534f-7f28-4c85-97e5-3424829c1382")
+	)
+	(wire
+		(pts
+			(xy 163.83 121.92) (xy 140.97 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b1ab304d-a83c-4c88-b731-a987f9d17e85")
+	)
+	(wire
+		(pts
+			(xy 125.73 104.14) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c6592d16-7e22-4a05-a694-4cf25a3a5eef")
+	)
+	(wire
+		(pts
+			(xy 125.73 106.68) (xy 125.73 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ccec10a0-a290-4418-b2fd-681356a663dc")
+	)
+	(wire
+		(pts
+			(xy 135.89 111.76) (xy 163.83 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cfeca809-465e-4bf2-a4c1-f5f3dc37fea9")
+	)
+	(wire
+		(pts
+			(xy 105.41 111.76) (xy 87.63 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d1f571f4-4819-4680-b8b3-b5e80a233ffa")
+	)
+	(wire
+		(pts
+			(xy 133.35 109.22) (xy 135.89 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d6c893b9-61d3-4994-ab18-df38eabdc919")
+	)
+	(wire
+		(pts
+			(xy 125.73 109.22) (xy 125.73 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e3570aaa-819a-4ca3-a424-56b5dda31616")
+	)
+	(wire
+		(pts
+			(xy 135.89 114.3) (xy 163.83 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ec2457b3-54d6-433a-a7c8-511a8af946c5")
+	)
+	(wire
+		(pts
+			(xy 163.83 106.68) (xy 135.89 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ef52ae18-e04d-4771-9f97-e8cdfb2292e6")
+	)
+	(wire
+		(pts
+			(xy 135.89 104.14) (xy 163.83 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f1e4f066-dcbc-4d66-ae20-d0b5032cc387")
+	)
+	(wire
+		(pts
+			(xy 163.83 119.38) (xy 140.97 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f440607c-0ab8-434c-a015-df3c15824bd6")
+	)
+	(wire
+		(pts
+			(xy 87.63 114.3) (xy 105.41 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fb308320-6216-44e0-aad6-946c693851de")
+	)
+	(label "SCLK"
+		(at 140.97 106.68 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "07592eec-07c8-48e3-873e-a5ed3dcef1fe")
+	)
+	(label "DO"
+		(at 140.97 101.6 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "12c3a7a9-ba48-4894-8534-fb132249a740")
+	)
+	(label "SCLK"
+		(at 87.63 106.68 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "459c48b1-2ccb-4501-9e75-3d4a52b86efb")
+	)
+	(label "DAT1"
+		(at 87.63 116.84 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "483a8e76-22e5-4e99-a05b-cc5a06575c84")
+	)
+	(label "DAT1"
+		(at 140.97 111.76 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d9892eb-d0ff-4f89-b69b-d0e02376517a")
+	)
+	(label "DAT2"
+		(at 140.97 114.3 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "516f60af-123d-45ec-b3bd-7313accad044")
+	)
+	(label "DO"
+		(at 87.63 109.22 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "7423e275-fff3-4574-8eaa-ac833e3bae90")
+	)
+	(label "CS"
+		(at 140.97 109.22 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "7caa49c4-3924-4d78-a9ba-2fc81e990d3b")
+	)
+	(label "DI"
+		(at 87.63 111.76 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ffc2a02-dd12-4bc3-9f45-9d53b452769a")
+	)
+	(label "CS"
+		(at 87.63 114.3 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f2e2914-172b-4b00-a00b-1747745c7e0c")
+	)
+	(label "DAT2"
+		(at 87.63 119.38 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "b22c7b5d-b403-4263-bdcf-e7d02a2cf01f")
+	)
+	(label "DI"
+		(at 140.97 104.14 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9d67872-05ed-442e-affc-425646ddcb08")
+	)
+	(symbol
+		(lib_id "poop-eagle-import:CAP_CERAMIC0603_NO")
+		(at 107.95 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f5464ae-4a6e-4621-bc0c-4ae34a124598")
+		(property "Reference" "C2"
+			(at 105.66 69.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 110.25 69.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 107.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1216347e-c1d4-4b96-b063-d7639e929e18")
+		)
+		(pin "2"
+			(uuid "2b215a14-9cb9-467c-b895-47d116ee05e9")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:RESISTOR_4PACK")
+		(at 130.81 106.68 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "147fe87e-1444-4fd4-bc54-344bf7010632")
+		(property "Reference" "R1"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b65a8dfe-53e7-453b-b709-fb959320a52b")
+		)
+		(pin "8"
+			(uuid "b7a1e9cc-b270-4d6d-9d88-44bfefde1155")
+		)
+		(pin "2"
+			(uuid "c04e85d4-91c8-4dd3-a3cc-b6fab7c50767")
+		)
+		(pin "7"
+			(uuid "e710b832-2be5-4b5d-ad77-39a7e1aedfc1")
+		)
+		(pin "3"
+			(uuid "40175b55-bbb1-4fbd-85e5-f0a107730744")
+		)
+		(pin "6"
+			(uuid "740ba279-4c44-4d7c-9cab-e3c1df6acf71")
+		)
+		(pin "4"
+			(uuid "0f423144-c352-49d6-937f-207641029964")
+		)
+		(pin "5"
+			(uuid "f3b8d513-5084-4970-9623-af3eb98e7ed2")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "R1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:RESISTOR_4PACK")
+		(at 130.81 109.22 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a5db5f4-61fa-4c75-83d7-72bb3ecf8e00")
+		(property "Reference" "R1"
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d56d4139-ca9c-4e7b-a0ca-b8575ce2500a")
+		)
+		(pin "8"
+			(uuid "e72c17ff-5a75-4ac1-af91-eefb96e9c663")
+		)
+		(pin "2"
+			(uuid "a3cc8555-3a24-4d61-8ad5-0fa5342096dd")
+		)
+		(pin "7"
+			(uuid "47278780-ca90-4f28-9b8e-fb9d2ddbacae")
+		)
+		(pin "3"
+			(uuid "ae8b7afd-025c-436d-9878-32fe2e7f938d")
+		)
+		(pin "6"
+			(uuid "20900430-d039-46ff-9780-d7e3616f3e15")
+		)
+		(pin "4"
+			(uuid "ad5726c3-162f-45f2-ba21-252501350585")
+		)
+		(pin "5"
+			(uuid "1b1d79c8-2693-46bc-a158-75cbdcfbb795")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "R1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:3.3V")
+		(at 107.95 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24de89d7-3c2c-4374-8e75-5bd62ac2bf60")
+		(property "Reference" "#U$10"
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 106.426 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d4a23cc-aaac-4313-8a8f-f12c948b422f")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "#U$10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:RESISTOR_4PACK")
+		(at 130.81 104.14 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a0b28e0-9020-4c41-bfd5-47d6aa9a91aa")
+		(property "Reference" "R1"
+			(at 130.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cec2896-1221-4199-b5e6-6e87fe902225")
+		)
+		(pin "8"
+			(uuid "8f7a164a-8cf0-4c6b-a724-e79a5aeabc2e")
+		)
+		(pin "2"
+			(uuid "f08df2bf-5143-40a7-b08d-7d36dd8a056d")
+		)
+		(pin "7"
+			(uuid "21d9ce95-dfa1-4d5a-9cd0-1416ef917b9f")
+		)
+		(pin "3"
+			(uuid "ed7ec1c5-63da-4b73-b7ac-1544e84941ba")
+		)
+		(pin "6"
+			(uuid "25dc2245-32a7-4045-a562-6962a8c794fa")
+		)
+		(pin "4"
+			(uuid "a4bb760d-9012-4d9b-a67f-d1718cc3bf29")
+		)
+		(pin "5"
+			(uuid "3656ae60-f6c0-4b04-9537-35f8c613fe05")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "R1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:GND")
+		(at 107.95 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e3914ec-4593-4a89-a770-0e39694b432e")
+		(property "Reference" "#GND6"
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16509fa6-1955-431f-9571-d891e1c29bdc")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "#GND6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:GND")
+		(at 115.57 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "410db109-f3af-4499-9d6d-b01d51dc923b")
+		(property "Reference" "#GND4"
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f4464fd-e83e-4ee2-8d6e-8258e57c61f5")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "#GND4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:3.3V")
+		(at 125.73 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "483b99eb-7072-44cb-a489-a5ad6140de2f")
+		(property "Reference" "#U$8"
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 124.206 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f962b41a-2466-4e83-be8b-6cf92527856e")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "#U$8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:GND")
+		(at 140.97 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e05bbd7-2ea9-427e-bdaa-436135ee2a80")
+		(property "Reference" "#GND2"
+			(at 140.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 127 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "166efb5d-4170-4144-acc9-adcabd03d2c4")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "#GND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:GND")
+		(at 100.33 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "515bc773-5f3b-44b3-980b-d304bdafe45a")
+		(property "Reference" "#GND5"
+			(at 100.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60ebfdfd-6288-4c21-9ac1-42a9bf985a7c")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "#GND5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:RESISTOR_4PACK")
+		(at 130.81 101.6 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65b06e04-235c-47d3-9ec4-72f339f84830")
+		(property "Reference" "R2"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 130.556 101.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 130.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e56b3d62-9785-4b94-8af0-2747c38e85be")
+		)
+		(pin "8"
+			(uuid "6e010868-f30b-4750-af4b-63faf30263a0")
+		)
+		(pin "2"
+			(uuid "16a8da9f-7ebb-4a5a-a9cc-ba9319190dd9")
+		)
+		(pin "7"
+			(uuid "e10492a8-278a-437d-b9c5-5df19a10f632")
+		)
+		(pin "3"
+			(uuid "12239589-801c-43a9-ab61-25bca50229a5")
+		)
+		(pin "6"
+			(uuid "11a0dc4f-51a6-404e-8805-789a19675bba")
+		)
+		(pin "4"
+			(uuid "7adc5996-384a-4ae0-8129-18cab9690430")
+		)
+		(pin "5"
+			(uuid "cf5d6434-1be4-4247-a4ce-bbf2fc91c6b5")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "R2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:MICROSD")
+		(at 179.07 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67c2cdb3-cadd-468d-85ac-5524df6ade57")
+		(property "Reference" "X1"
+			(at 166.37 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "microSD"
+			(at 166.37 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "meow:CONN_47219-2001_MOL"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "bfa4e8f9-beea-4d05-bc94-e4c0fc909911")
+		)
+		(pin "3"
+			(uuid "027ace5f-4033-4e14-9ac4-f8a46c178390")
+		)
+		(pin "5"
+			(uuid "3a6929cf-d299-4ffb-8be9-be1057c61602")
+		)
+		(pin "2"
+			(uuid "26b08550-cebd-4bfb-8cd8-8458e6809d0b")
+		)
+		(pin "8"
+			(uuid "954a6510-6f77-4da9-b376-38e332d5c3c4")
+		)
+		(pin "1"
+			(uuid "584eacb9-a120-4ad1-bfd0-293f38a859ff")
+		)
+		(pin "4"
+			(uuid "990e1b33-5c88-4264-943e-d1f1ba210b4e")
+		)
+		(pin "G1"
+			(uuid "15a2aa67-3ee4-4cbc-a344-9e3bf31ff2fe")
+		)
+		(pin "G3"
+			(uuid "69e4bdd7-b058-4849-a85e-400b1d2205a6")
+		)
+		(pin "G2"
+			(uuid "8189b0e4-9bae-432a-b120-c49216db8e62")
+		)
+		(pin "G4"
+			(uuid "658492d8-2fe9-4e23-aba6-b15fdabd7010")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:3.3V")
+		(at 140.97 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b8523ce-b065-4977-9678-c11288a35627")
+		(property "Reference" "#U$5"
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 139.446 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f88b10c5-6243-4a60-ada8-222548d10538")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "#U$5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:HEADER-1X970MIL")
+		(at 107.95 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "900545d0-4565-4a3b-b74c-178ed7a292e3")
+		(property "Reference" "JP1"
+			(at 104.14 98.425 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "HEADER-1X970MIL"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Avionics_Feet:Micro_SD"
+			(at 107.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba451348-65b6-4ad1-ae05-88ba8120d34e")
+		)
+		(pin "2"
+			(uuid "bc1187e8-3279-4f30-8379-816fcdb50b44")
+		)
+		(pin "3"
+			(uuid "227fbd3e-9fb2-4c9e-827c-c82c0178355d")
+		)
+		(pin "4"
+			(uuid "5298eae5-5195-4fbe-a411-72b129b50d32")
+		)
+		(pin "5"
+			(uuid "22932555-542d-45e9-b5be-ad70f068a22f")
+		)
+		(pin "6"
+			(uuid "904a9f1b-fc64-48b5-b5a3-e8310d3a8541")
+		)
+		(pin "7"
+			(uuid "1bd3348e-c864-4d33-a4ab-8fe123b2eba4")
+		)
+		(pin "8"
+			(uuid "da8490f4-9e8f-49d1-8f4c-3fa2c1d58f90")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:RESISTOR_4PACK")
+		(at 130.81 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b72cda8d-ba71-4d79-ba18-0df2d375ca8f")
+		(property "Reference" "R1"
+			(at 130.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 130.81 114.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 130.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfb58815-45b1-4d3f-9ec6-0fb3a3e1e968")
+		)
+		(pin "8"
+			(uuid "bc6cfde2-e6c2-4cf0-ae40-670360dfbb57")
+		)
+		(pin "2"
+			(uuid "0e1d4f68-7642-436a-90cd-8e8c737d46e1")
+		)
+		(pin "7"
+			(uuid "20996aab-2b6d-44cc-993b-9a15d02852d8")
+		)
+		(pin "3"
+			(uuid "36cbd483-40b5-4db2-9975-e7d7a19f6e0e")
+		)
+		(pin "6"
+			(uuid "6238cc06-8140-4862-ac48-a28caf9e3069")
+		)
+		(pin "4"
+			(uuid "5c2ef6bb-2f06-4184-a91c-f22645b04120")
+		)
+		(pin "5"
+			(uuid "2e3831e0-4c02-4d48-9c2b-81b44da768a8")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:GND")
+		(at 163.83 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbf691a3-3c54-4c35-8dd3-a1e192a3436a")
+		(property "Reference" "#GND1"
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 142.24 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4692b47-f941-4bfa-aae5-305bdb579de5")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "#GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:3.3V")
+		(at 87.63 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9b9b6c1-4994-4664-9268-bffdbcd3d7d2")
+		(property "Reference" "#U$6"
+			(at 87.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 86.106 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4733a9cf-9891-4c9f-80a3-6299880adacb")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "#U$6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 100.33 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0f5c007-b284-4d0b-9fb1-508922b5cf08")
+		(property "Reference" "C1"
+			(at 98.04 69.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 102.63 69.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 100.33 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dd2f967-ddd1-470b-aff9-d0e027e493cc")
+		)
+		(pin "2"
+			(uuid "9efec711-a00c-4856-bb85-a463966a7de1")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:RESISTOR_4PACK")
+		(at 130.81 111.76 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee239bce-3194-49e6-94a4-01d16239684e")
+		(property "Reference" "R2"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 130.81 111.76 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 130.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2847d7d1-9f12-412a-b24e-d0f1f7c36c50")
+		)
+		(pin "8"
+			(uuid "af39d443-f527-4d92-82be-782ec06416cf")
+		)
+		(pin "2"
+			(uuid "22882a50-d597-4573-a627-2f8f1b0621ea")
+		)
+		(pin "7"
+			(uuid "8604357b-f0fd-4fdb-bdba-49b240a05af1")
+		)
+		(pin "3"
+			(uuid "7ba8c0c3-5ff8-4c06-b9f1-b00e4ab477f9")
+		)
+		(pin "6"
+			(uuid "ed324ffd-e31d-4157-a257-7bbc6a9d7749")
+		)
+		(pin "4"
+			(uuid "1f72af47-2c32-472e-84bc-c288367f5576")
+		)
+		(pin "5"
+			(uuid "aff812c7-877b-423e-95da-c934c6a016db")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "R2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "poop-eagle-import:3.3V")
+		(at 100.33 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe0776fd-18ef-41fc-9ebd-814147552173")
+		(property "Reference" "#U$9"
+			(at 100.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 98.806 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d94d9b6-db1a-4b4a-a9b3-22811f106ce1")
+		)
+		(instances
+			(project ""
+				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
+					(reference "#U$9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
