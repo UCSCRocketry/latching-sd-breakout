@@ -1037,7 +1037,7 @@
 					)
 				)
 				(pin power_in line
-					(at -15.24 -10.16 0)
+					(at -15.24 -7.62 0)
 					(length 2.54)
 					(name "SD_VDD"
 						(effects
@@ -1047,6 +1047,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1723,6 +1741,26 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 119.38) (xy 163.83 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15df96e-7218-424c-ae4f-6071bbb05b4f")
+	)
+	(wire
+		(pts
+			(xy 142.24 116.84) (xy 163.83 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a3843e72-b38b-4ca0-9b65-f4b1ec840493")
+	)
+	(wire
+		(pts
 			(xy 163.83 121.92) (xy 140.97 121.92)
 		)
 		(stroke
@@ -1730,6 +1768,16 @@
 			(type solid)
 		)
 		(uuid "b1ab304d-a83c-4c88-b731-a987f9d17e85")
+	)
+	(wire
+		(pts
+			(xy 142.24 119.38) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bb064d0f-bff5-448b-8f5f-32ce885839cc")
 	)
 	(wire
 		(pts
@@ -1823,7 +1871,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 119.38) (xy 140.97 119.38)
+			(xy 142.24 119.38) (xy 137.16 119.38)
 		)
 		(stroke
 			(width 0.1524)
@@ -2859,6 +2907,9 @@
 		(pin "G4"
 			(uuid "658492d8-2fe9-4e23-aba6-b15fdabd7010")
 		)
+		(pin "6"
+			(uuid "3c904dac-1d68-45fe-b800-8eff8491a044")
+		)
 		(instances
 			(project ""
 				(path "/a0ef4466-5f43-4d0d-935b-156b27d24871"
@@ -2870,7 +2921,7 @@
 	)
 	(symbol
 		(lib_id "poop-eagle-import:3.3V")
-		(at 140.97 116.84 0)
+		(at 137.16 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2878,7 +2929,7 @@
 		(dnp no)
 		(uuid "7b8523ce-b065-4977-9678-c11288a35627")
 		(property "Reference" "#U$5"
-			(at 140.97 116.84 0)
+			(at 137.16 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,7 +2938,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 139.446 115.824 0)
+			(at 135.636 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -2896,7 +2947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 116.84 0)
+			(at 137.16 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +2956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 116.84 0)
+			(at 137.16 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2914,7 +2965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 116.84 0)
+			(at 137.16 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
