@@ -2103,7 +2103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0502"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
 			(at 130.81 106.68 0)
 			(effects
 				(font
@@ -2190,7 +2190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0502"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
 			(at 130.81 109.22 0)
 			(effects
 				(font
@@ -2343,7 +2343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0502"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
 			(at 130.81 104.14 0)
 			(effects
 				(font
@@ -2760,7 +2760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0502"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
 			(at 130.81 101.6 0)
 			(effects
 				(font
@@ -3099,7 +3099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0502"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
 			(at 130.81 114.3 0)
 			(effects
 				(font
@@ -3385,7 +3385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0502"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
 			(at 130.81 111.76 0)
 			(effects
 				(font
